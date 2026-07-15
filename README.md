@@ -20,7 +20,7 @@ No! **Auto PixGG** is completely free and open-source. The only costs you will e
 Install the package via npm:
 
 ```bash
-npm install JuniorSchueller/auto-pixgg
+npm install JuniorSchueller/auto-pixgg@latest
 ```
 
 ### 2. Import the Library
