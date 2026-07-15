@@ -1,6 +1,6 @@
 {
   "name": "auto-pixgg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto PixGG is a lightweight JavaScript/TypeScript library designed to simplify PixGG payment integration and validation. Perfect for simple e-commerces, SaaS platforms, and indie hackers who want to automate their Pix flow without headache.",
   "keywords": [
     "pixgg",
