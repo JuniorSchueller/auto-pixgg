@@ -111,6 +111,7 @@ Returns an array of all recent payment requests.
     "createdAt": "2026-01-01T00:00:00.000Z",
     "approvedAt": "2026-01-01T00:05:00.000Z",
     "data": "{\"productId\": \"abc\"}",
+    "amount": 6.5,
     "author": "Customer Name"
   }
 ]
@@ -149,6 +150,7 @@ Validates the current status of a specific transaction.
     "createdAt": "2026-01-01T00:00:00.000Z",
     "approvedAt": "2026-01-01T00:05:00.000Z",
     "data": "{\"productId\": \"abc\"}",
+    "amount": 6.5,
     "author": "Customer Name"
   }
 }
@@ -158,7 +160,7 @@ Validates the current status of a specific transaction.
 | --- | --- | --- |
 | `confirmed` | `Boolean` | `true` if the payment was successfully processed. |
 | `status` | `String` | The current state of the transaction (e.g., *PENDING*, *APPROVED*). |
-| `data` | `Object` | Full transaction details (contains `id`, `createdAt`, `approvedAt`, `data`, and `author`). |
+| `data` | `Object` | Full transaction details (contains `id`, `createdAt`, `approvedAt`, `data`, `amount` and `author`). |
 
 ---
 
